@@ -1,0 +1,105 @@
+.nav-bar{
+
+    display :flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(32, 32, 82);
+
+
+}
+
+h1,h2{
+ color: white;
+ 
+
+}
+
+ #top-page{
+     height: 400px;
+    width: 100%;
+    padding: 100px;
+    margin-top: 30px;
+    background-image: url(https://the1916company.imgix.net/cms/Rolex_Certified_Pre_Owned_GMT_Master_II_Sept_2023_88aa745f7b.jpg);
+    
+    
+}
+
+.paragraphe{
+
+    color: white;
+    width: 50%;
+}
+
+a.button{
+
+    display : inline-block;
+    margin-left: 100px;  
+    background: white;
+    height: 45px;
+    width: 300px;
+    border: 2px;
+    border-radius: 30px;
+    text-align:center;
+    padding-top: 10px;
+      
+}
+
+#logo{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo>img {
+    width: 50px;
+    height: 50px;
+}
+
+#Products{
+    margin-top: 30px;
+
+}
+
+
+.footer {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+.Liens {
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style-type: none;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    a.button{
+        margin-left: 50px;
+}
+#top-page{
+ background-image: none;
+ height: 250px;
+ margin-top: -40px;
+
+}
+.button{
+
+    position: absolute;
+    top: 180px;
+    left: 5px;
+   
+}
+#logo{
+
+    display: none;
+}
+
+ }
